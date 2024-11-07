@@ -21,6 +21,9 @@ async def main():
     results2 = await asyncio.gather(*tasks2)
 
 
+    print("Names:")
+    time.sleep(0.5)
+
 
     for result in results:
         print(result)
@@ -36,6 +39,8 @@ async def main():
             total_amounts += amount
     
     print(f"Total amounts of purchase: {total_amounts}")
+
+print("hello world")
 
 if __name__ == '__main__':
     asyncio.run(main())
