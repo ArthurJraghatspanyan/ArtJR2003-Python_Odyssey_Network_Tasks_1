@@ -30,6 +30,8 @@ async def main():
         print()
         time.sleep(0.5)
 
+    print("Purchases:")
+    time.sleep(0.5)
     for result2 in results2:
         print(result2)
         print()
