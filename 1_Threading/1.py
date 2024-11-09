@@ -12,7 +12,6 @@ def reading_new_lines(fs):
 
 
 def new_line_checking(fs2):
-    res = ""
     target = "ERROR"
     count = 0
     for i in fs2:
